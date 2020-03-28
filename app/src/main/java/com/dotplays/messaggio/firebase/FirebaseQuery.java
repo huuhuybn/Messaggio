@@ -14,6 +14,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.GenericTypeIndicator;
+import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
@@ -82,12 +83,20 @@ public class FirebaseQuery<T> {
         myRef.orderByKey().startAt(username).endAt(username.concat("\uf8ff")).addValueEventListener(valueEventListener);
 
     }
+    public static void getListMessages(String path, ChildEventListener valueEventListener) {
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference databaseReference = database.getReference(MESSAGES).child(path);
+        Query query = databaseReference.orderByValue();
+        databaseReference.addChildEventListener(valueEventListener);
+    }
 
     public static void getListMessages(String path, ValueEventListener valueEventListener) {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference(MESSAGES).child(path);
-        myRef.addValueEventListener(valueEventListener);
+        DatabaseReference databaseReference = database.getReference(MESSAGES).child(path);
+        Query query = databaseReference.orderByValue();
+        query.addValueEventListener(valueEventListener);
     }
+
 
     public static void sendMessage(String id, String text, String username, long currentTimeMillis, DatabaseReference.CompletionListener
             completionListener) {
@@ -98,14 +107,15 @@ public class FirebaseQuery<T> {
         Map<String, Object> hopperUpdates = new HashMap<>();
         hopperUpdates.put("id", id);
         hopperUpdates.put("lastUpdate", text);
-        hopperUpdates.put("time", System.currentTimeMillis());
+        hopperUpdates.put("time", currentTimeMillis);
 
         myRefGroup.updateChildren(hopperUpdates);
 
         DatabaseReference myRefMessage = database.getReference(MESSAGES).child(id);
-
         Chat chat = new Chat(username, text, currentTimeMillis);
+
         myRefMessage.push().setValue(chat, completionListener);
+
     }
 
     public static void getListUser(ValueEventListener valueEventListener) {
