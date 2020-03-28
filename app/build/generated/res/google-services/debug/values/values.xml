@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">346298544739-0b8pp8r44bavv9dlj515no90105h6fv8.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://messaggio-15bbc.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">346298544739</string>
+    <string name="google_api_key" translatable="false">AIzaSyBpLi3OPHQdY2ktuvSYvhlcWartM9IsYWc</string>
+    <string name="google_app_id" translatable="false">1:346298544739:android:1c4e485a421a00fd</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBpLi3OPHQdY2ktuvSYvhlcWartM9IsYWc</string>
+    <string name="google_storage_bucket" translatable="false">messaggio-15bbc.appspot.com</string>
+    <string name="project_id" translatable="false">messaggio-15bbc</string>
+</resources>

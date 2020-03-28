@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dotplays.messaggio"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Messaggio-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Messaggio-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a4da68f50e91faa38539ef0d0e9b214\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a4da68f50e91faa38539ef0d0e9b214\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+13
+14    <application
+14-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:7:5-30:19
+15        android:allowBackup="true"
+15-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4bb9740b9abcde0416a019c3e52780d1\core-1.0.1\AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:10:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:11:9-54
+21        android:supportsRtl="true"
+21-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:13:9-40
+24        <activity android:name="com.dotplays.messaggio.activity.ProfileActivity" />
+24-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:14:9-71
+24-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:14:19-59
+25        <activity
+25-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:15:9-105
+26            android:name="com.dotplays.messaggio.activity.SignUpActivity"
+26-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:15:19-58
+27            android:theme="@style/AppTheme.NoActionBar" />
+27-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:15:59-102
+28        <activity
+28-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:16:9-24:20
+29            android:name="com.dotplays.messaggio.activity.LoginActivity"
+29-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:17:13-51
+30            android:theme="@style/AppTheme.NoActionBar" >
+30-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:18:13-56
+31            <intent-filter>
+31-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:19:13-23:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:20:17-69
+32-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:20:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:22:17-77
+34-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:22:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:25:9-28:59
+38            android:name="com.dotplays.messaggio.activity.HomeActivity"
+38-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:26:13-50
+39            android:label="@string/app_name"
+39-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:27:13-45
+40            android:theme="@style/AppTheme.NoActionBar" />
+40-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:28:13-56
+41        <activity android:name="com.dotplays.messaggio.activity.ChatActivity" />
+41-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:29:9-59
+41-->D:\Messaggio-master\app\src\main\AndroidManifest.xml:29:19-56
+42        <activity
+42-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9a51782c70661d170bbb8178fbf549b5\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+43            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+43-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9a51782c70661d170bbb8178fbf549b5\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+44            android:exported="false"
+44-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9a51782c70661d170bbb8178fbf549b5\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+45            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+45-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9a51782c70661d170bbb8178fbf549b5\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+46
+47        <provider
+47-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1a6466d2bbd9c1e01eb6189eec514a01\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+48            android:name="com.google.firebase.provider.FirebaseInitProvider"
+48-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1a6466d2bbd9c1e01eb6189eec514a01\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+49            android:authorities="com.dotplays.messaggio.firebaseinitprovider"
+49-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1a6466d2bbd9c1e01eb6189eec514a01\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+50            android:exported="false"
+50-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1a6466d2bbd9c1e01eb6189eec514a01\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+51            android:initOrder="100" />
+51-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1a6466d2bbd9c1e01eb6189eec514a01\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+52
+53        <meta-data
+53-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aa5f454f639505f0886b07f430ff1bfb\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+54            android:name="com.google.android.gms.version"
+54-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aa5f454f639505f0886b07f430ff1bfb\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+55            android:value="@integer/google_play_services_version" />
+55-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aa5f454f639505f0886b07f430ff1bfb\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+56
+57        <provider
+57-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0bb843c57713bce4cf3026d5c1a7d15f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+58            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0bb843c57713bce4cf3026d5c1a7d15f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+59            android:authorities="com.dotplays.messaggio.lifecycle-process"
+59-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0bb843c57713bce4cf3026d5c1a7d15f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+60            android:exported="false"
+60-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0bb843c57713bce4cf3026d5c1a7d15f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+61            android:multiprocess="true" />
+61-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0bb843c57713bce4cf3026d5c1a7d15f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+62    </application>
+63
+64</manifest>

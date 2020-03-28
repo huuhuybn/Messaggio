@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "346298544739",
+    "firebase_url": "https://messaggio-15bbc.firebaseio.com",
+    "project_id": "messaggio-15bbc",
+    "storage_bucket": "messaggio-15bbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346298544739:android:1c4e485a421a00fd",
+        "android_client_info": {
+          "package_name": "com.dotplays.messaggio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346298544739-ijro2ffhq7qms2gf3arfj22ehvvkj581.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dotplays.messaggio",
+            "certificate_hash": "d07292a994bc3341ef0e9f3e1a8c895ed924b5f1"
+          }
+        },
+        {
+          "client_id": "346298544739-0b8pp8r44bavv9dlj515no90105h6fv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpLi3OPHQdY2ktuvSYvhlcWartM9IsYWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346298544739-0b8pp8r44bavv9dlj515no90105h6fv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

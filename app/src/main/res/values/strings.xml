@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Messaggio</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <!--Home Screen-->
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="tab_text_1">Inbox</string>
+    <string name="tab_text_2">Contact</string>
+    <string name="tab_text_3">Setting</string>
+
+    <!--Login Screen-->
+
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_sign_in">Sign In</string>
+    <string name="login_facebook">Login as Facebook</string>
+    <string name="login_sign_up">Sign Up</string>
+
+    <!--Sign Up-->
+
+    <string name="sign_up_first_name">First Name</string>
+    <string name="sign_up_last_name">Last Name</string>
+    <string name="sign_up_username">Username</string>
+    <string name="sign_up_password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="notify_user_is_exits">Username is exits. Please choose other username !!!</string>
+    <string name="notify_wrong_password">Wrong password. Please try again!!!</string>
+    <string name="notify_user_is_not_exists">Username is not exists. Pls try again !!!</string>
+    <string name="btn_send">SEND</string>
+    <string name="notify_empty_text">Pls enter text ...</string>
+    <string name="notify_create_user_failure">Seem it\'s not working. Pls contact my email dotplays.com@gmail.com</string>
+    <string name="notify_create_user_successful">Sign up successfully...</string>
+
+
+</resources>
